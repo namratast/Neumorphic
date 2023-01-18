@@ -1,0 +1,123 @@
+:root{
+    font-size: 62.5%;
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: grey;
+    min-height: 100vh;
+    display: flex;
+}
+
+.card {
+    
+    border-radius: 10px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 20px 20px 60px #bebebe;
+    width: 40rem;
+    margin: auto;
+}
+
+img {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    align-items: center;
+}
+
+.top i {
+    padding: 2rem;
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe, inset -20px -20px 60px #ffffff;
+    font-size: 25px;
+}
+
+.fa-power-off {
+    color: red;
+}
+
+.middle {
+    text-align: center;
+    padding: 2rem;
+}
+
+.middle p {
+    margin: 1rem 0;
+    font-size: 20px;
+}
+p:nth-of-type(2) {
+    color: grey;
+    font-weight: 600;
+}
+
+.gradient-container {
+    display: flex;
+    justify-content: center;
+}
+
+.gradient {
+    background:linear-gradient(to right, lightblue, rgb(0, 191, 255), lightblue) ;
+    padding: 0.5rem;
+   flex-basis: 60%;
+    border-radius:  1rem 0  0 1rem ;
+}
+
+.white {
+    background: whitesmoke;
+    padding: 0.5rem;
+    flex-basis: 40%;
+    border-radius: 0 1rem 1rem 0;
+}
+
+
+
+.icon-container i {
+    padding: 2rem;
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe, inset -20px -20px 60px #ffffff;
+    margin: 1rem 0;
+    font-size: 25px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-play {
+    color: rgb(84, 208, 238);
+    
+}
+
+.line-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.line {
+    width: 20rem;
+    background: darkgrey;
+    padding: 0.2rem;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: inset 0px 20px 50px 0 #bebebe;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
